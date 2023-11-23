@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4CAEEF4C2B0CCE7A005E33BB /* Music_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAEEF4B2B0CCE7A005E33BB /* Music_AppApp.swift */; };
+		4CAEEF4E2B0CCE7A005E33BB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAEEF4D2B0CCE7A005E33BB /* ContentView.swift */; };
+		4CAEEF502B0CCE7B005E33BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CAEEF4F2B0CCE7B005E33BB /* Assets.xcassets */; };
+		4CAEEF532B0CCE7B005E33BB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CAEEF522B0CCE7B005E33BB /* Preview Assets.xcassets */; };
+		4CAEEF5A2B0CCF52005E33BB /* SongsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAEEF592B0CCF52005E33BB /* SongsView.swift */; };
+		4CAEEF5C2B0CCF76005E33BB /* GenresView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAEEF5B2B0CCF76005E33BB /* GenresView.swift */; };
+		4CAEEF5E2B0CCF8E005E33BB /* ArtistsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAEEF5D2B0CCF8E005E33BB /* ArtistsView.swift */; };
+		4CAEEF602B0CCFA2005E33BB /* PlaylistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAEEF5F2B0CCFA2005E33BB /* PlaylistView.swift */; };
+		4CAEEF622B0CCFB7005E33BB /* SongView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAEEF612B0CCFB7005E33BB /* SongView.swift */; };
+		4CAEEF642B0CCFC7005E33BB /* AlbumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAEEF632B0CCFC7005E33BB /* AlbumView.swift */; };
+		4CAEEF662B0CCFD8005E33BB /* RadioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAEEF652B0CCFD8005E33BB /* RadioView.swift */; };
+		4CAEEF682B0CCFEF005E33BB /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAEEF672B0CCFEF005E33BB /* SearchView.swift */; };
+		4CAEEF6A2B0CD00E005E33BB /* ListenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAEEF692B0CD00E005E33BB /* ListenView.swift */; };
+		4CAEEF6F2B0CD056005E33BB /* card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAEEF6E2B0CD056005E33BB /* card.swift */; };
+		4CAEEF712B0CD076005E33BB /* BrowseCategories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAEEF702B0CD076005E33BB /* BrowseCategories.swift */; };
+		4CAEEF732B0CD086005E33BB /* Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAEEF722B0CD086005E33BB /* Categories.swift */; };
+		4CAEEF752B0CD09A005E33BB /* Playlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAEEF742B0CD09A005E33BB /* Playlist.swift */; };
+		4CAEEF772B0E1411005E33BB /* Genres.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAEEF762B0E1411005E33BB /* Genres.swift */; };
+		4CAEEF792B0E1811005E33BB /* Artists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAEEF782B0E1811005E33BB /* Artists.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4CAEEF482B0CCE7A005E33BB /* Music_App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Music_App.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CAEEF4B2B0CCE7A005E33BB /* Music_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Music_AppApp.swift; sourceTree = "<group>"; };
+		4CAEEF4D2B0CCE7A005E33BB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4CAEEF4F2B0CCE7B005E33BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4CAEEF522B0CCE7B005E33BB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4CAEEF592B0CCF52005E33BB /* SongsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongsView.swift; sourceTree = "<group>"; };
+		4CAEEF5B2B0CCF76005E33BB /* GenresView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenresView.swift; sourceTree = "<group>"; };
+		4CAEEF5D2B0CCF8E005E33BB /* ArtistsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistsView.swift; sourceTree = "<group>"; };
+		4CAEEF5F2B0CCFA2005E33BB /* PlaylistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistView.swift; sourceTree = "<group>"; };
+		4CAEEF612B0CCFB7005E33BB /* SongView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongView.swift; sourceTree = "<group>"; };
+		4CAEEF632B0CCFC7005E33BB /* AlbumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumView.swift; sourceTree = "<group>"; };
+		4CAEEF652B0CCFD8005E33BB /* RadioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioView.swift; sourceTree = "<group>"; };
+		4CAEEF672B0CCFEF005E33BB /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		4CAEEF692B0CD00E005E33BB /* ListenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListenView.swift; sourceTree = "<group>"; };
+		4CAEEF6E2B0CD056005E33BB /* card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = card.swift; sourceTree = "<group>"; };
+		4CAEEF702B0CD076005E33BB /* BrowseCategories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseCategories.swift; sourceTree = "<group>"; };
+		4CAEEF722B0CD086005E33BB /* Categories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Categories.swift; sourceTree = "<group>"; };
+		4CAEEF742B0CD09A005E33BB /* Playlist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Playlist.swift; sourceTree = "<group>"; };
+		4CAEEF762B0E1411005E33BB /* Genres.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Genres.swift; sourceTree = "<group>"; };
+		4CAEEF782B0E1811005E33BB /* Artists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artists.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CAEEF452B0CCE7A005E33BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4CAEEF3F2B0CCE7A005E33BB = {
+			isa = PBXGroup;
+			children = (
+				4CAEEF4A2B0CCE7A005E33BB /* Music_App */,
+				4CAEEF492B0CCE7A005E33BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4CAEEF492B0CCE7A005E33BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CAEEF482B0CCE7A005E33BB /* Music_App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CAEEF4A2B0CCE7A005E33BB /* Music_App */ = {
+			isa = PBXGroup;
+			children = (
+				4CAEEF4B2B0CCE7A005E33BB /* Music_AppApp.swift */,
+				4CAEEF4D2B0CCE7A005E33BB /* ContentView.swift */,
+				4CAEEF6D2B0CD043005E33BB /* Model */,
+				4CAEEF4F2B0CCE7B005E33BB /* Assets.xcassets */,
+				4CAEEF6B2B0CD01B005E33BB /* Views */,
+				4CAEEF512B0CCE7B005E33BB /* Preview Content */,
+			);
+			path = Music_App;
+			sourceTree = "<group>";
+		};
+		4CAEEF512B0CCE7B005E33BB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4CAEEF522B0CCE7B005E33BB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4CAEEF6B2B0CD01B005E33BB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4CAEEF592B0CCF52005E33BB /* SongsView.swift */,
+				4CAEEF5B2B0CCF76005E33BB /* GenresView.swift */,
+				4CAEEF5D2B0CCF8E005E33BB /* ArtistsView.swift */,
+				4CAEEF5F2B0CCFA2005E33BB /* PlaylistView.swift */,
+				4CAEEF612B0CCFB7005E33BB /* SongView.swift */,
+				4CAEEF632B0CCFC7005E33BB /* AlbumView.swift */,
+				4CAEEF652B0CCFD8005E33BB /* RadioView.swift */,
+				4CAEEF672B0CCFEF005E33BB /* SearchView.swift */,
+				4CAEEF692B0CD00E005E33BB /* ListenView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4CAEEF6D2B0CD043005E33BB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4CAEEF6E2B0CD056005E33BB /* card.swift */,
+				4CAEEF702B0CD076005E33BB /* BrowseCategories.swift */,
+				4CAEEF722B0CD086005E33BB /* Categories.swift */,
+				4CAEEF782B0E1811005E33BB /* Artists.swift */,
+				4CAEEF762B0E1411005E33BB /* Genres.swift */,
+				4CAEEF742B0CD09A005E33BB /* Playlist.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4CAEEF472B0CCE7A005E33BB /* Music_App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CAEEF562B0CCE7B005E33BB /* Build configuration list for PBXNativeTarget "Music_App" */;
+			buildPhases = (
+				4CAEEF442B0CCE7A005E33BB /* Sources */,
+				4CAEEF452B0CCE7A005E33BB /* Frameworks */,
+				4CAEEF462B0CCE7A005E33BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Music_App;
+			productName = Music_App;
+			productReference = 4CAEEF482B0CCE7A005E33BB /* Music_App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4CAEEF402B0CCE7A005E33BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					4CAEEF472B0CCE7A005E33BB = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 4CAEEF432B0CCE7A005E33BB /* Build configuration list for PBXProject "Music_App" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4CAEEF3F2B0CCE7A005E33BB;
+			productRefGroup = 4CAEEF492B0CCE7A005E33BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CAEEF472B0CCE7A005E33BB /* Music_App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4CAEEF462B0CCE7A005E33BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CAEEF532B0CCE7B005E33BB /* Preview Assets.xcassets in Resources */,
+				4CAEEF502B0CCE7B005E33BB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CAEEF442B0CCE7A005E33BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CAEEF682B0CCFEF005E33BB /* SearchView.swift in Sources */,
+				4CAEEF732B0CD086005E33BB /* Categories.swift in Sources */,
+				4CAEEF602B0CCFA2005E33BB /* PlaylistView.swift in Sources */,
+				4CAEEF4E2B0CCE7A005E33BB /* ContentView.swift in Sources */,
+				4CAEEF6F2B0CD056005E33BB /* card.swift in Sources */,
+				4CAEEF5A2B0CCF52005E33BB /* SongsView.swift in Sources */,
+				4CAEEF622B0CCFB7005E33BB /* SongView.swift in Sources */,
+				4CAEEF5E2B0CCF8E005E33BB /* ArtistsView.swift in Sources */,
+				4CAEEF5C2B0CCF76005E33BB /* GenresView.swift in Sources */,
+				4CAEEF712B0CD076005E33BB /* BrowseCategories.swift in Sources */,
+				4CAEEF6A2B0CD00E005E33BB /* ListenView.swift in Sources */,
+				4CAEEF772B0E1411005E33BB /* Genres.swift in Sources */,
+				4CAEEF792B0E1811005E33BB /* Artists.swift in Sources */,
+				4CAEEF662B0CCFD8005E33BB /* RadioView.swift in Sources */,
+				4CAEEF642B0CCFC7005E33BB /* AlbumView.swift in Sources */,
+				4CAEEF4C2B0CCE7A005E33BB /* Music_AppApp.swift in Sources */,
+				4CAEEF752B0CD09A005E33BB /* Playlist.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4CAEEF542B0CCE7B005E33BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4CAEEF552B0CCE7B005E33BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4CAEEF572B0CCE7B005E33BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Music_App/Preview Content\"";
+				DEVELOPMENT_TEAM = 7JK88VNTVY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alicemilo.Music-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4CAEEF582B0CCE7B005E33BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Music_App/Preview Content\"";
+				DEVELOPMENT_TEAM = 7JK88VNTVY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alicemilo.Music-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4CAEEF432B0CCE7A005E33BB /* Build configuration list for PBXProject "Music_App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CAEEF542B0CCE7B005E33BB /* Debug */,
+				4CAEEF552B0CCE7B005E33BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CAEEF562B0CCE7B005E33BB /* Build configuration list for PBXNativeTarget "Music_App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CAEEF572B0CCE7B005E33BB /* Debug */,
+				4CAEEF582B0CCE7B005E33BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4CAEEF402B0CCE7A005E33BB /* Project object */;
+}
